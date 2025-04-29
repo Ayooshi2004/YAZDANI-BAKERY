@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <!-- Background - wooden table -->
+  <rect x="50" y="180" width="300" height="70" fill="#a67c52" />
+  <rect x="50" y="175" width="300" height="5" fill="#7d5d3b" />
+  <path d="M50,180 L350,180 M50,210 L350,210 M50,240 L350,240" stroke="#7d5d3b" stroke-width="1" stroke-opacity="0.5" />
+  
+  <!-- Flour dusting on table -->
+  <ellipse cx="200" cy="200" rx="120" ry="40" fill="#f9f2e2" opacity="0.7" />
+  
+  <!-- Baker's hands and arms -->
+  <path d="M120,100 C140,120 150,140 160,160 C170,180 180,200 190,210" stroke="#f5e6d8" stroke-width="25" stroke-linecap="round" fill="none" />
+  <path d="M280,100 C260,120 250,140 240,160 C230,180 220,200 210,210" stroke="#f5e6d8" stroke-width="25" stroke-linecap="round" fill="none" />
+  
+  <!-- Baker's hands -->
+  <ellipse cx="190" cy="210" rx="15" ry="10" fill="#f5e6d8" />
+  <ellipse cx="210" cy="210" rx="15" ry="10" fill="#f5e6d8" />
+  
+  <!-- Bread dough -->
+  <ellipse cx="200" cy="200" rx="50" ry="30" fill="#f9ead8" />
+  <path d="M170,190 C180,180 220,180 230,190" stroke="#e8c287" stroke-width="2" fill="none" />
+  <path d="M170,210 C180,220 220,220 230,210" stroke="#e8c287" stroke-width="2" fill="none" />
+  
+  <!-- Baker's uniform - sleeves -->
+  <rect x="105" y="90" width="30" height="40" fill="#ffffff" rx="10" ry="10" />
+  <rect x="265" y="90" width="30" height="40" fill="#ffffff" rx="10" ry="10" />
+  
+  <!-- Flour dust clouds -->
+  <circle cx="160" cy="170" r="5" fill="#f9f2e2" opacity="0.8" />
+  <circle cx="165" cy="165" r="3" fill="#f9f2e2" opacity="0.6" />
+  <circle cx="155" cy="175" r="4" fill="#f9f2e2" opacity="0.7" />
+  
+  <circle cx="240" cy="170" r="5" fill="#f9f2e2" opacity="0.8" />
+  <circle cx="235" cy="165" r="3" fill="#f9f2e2" opacity="0.6" />
+  <circle cx="245" cy="175" r="4" fill="#f9f2e2" opacity="0.7" />
+  
+  <!-- Kneading impressions on dough -->
+  <path d="M190,195 C195,190 205,190 210,195" stroke="#e8c287" stroke-width="1" fill="none" />
+  <path d="M185,205 C190,210 210,210 215,205" stroke="#e8c287" stroke-width="1" fill="none" />
+  <path d="M180,200 C185,195 195,195 200,200" stroke="#e8c287" stroke-width="1" fill="none" />
+  <path d="M200,200 C205,195 215,195 220,200" stroke="#e8c287" stroke-width="1" fill="none" />
+  
+  <!-- Rolling pin in background -->
+  <rect x="270" y="190" width="60" height="10" fill="#c4a77d" rx="5" ry="5" />
+  <rect x="270" y="190" width="5" height="10" fill="#a67c52" rx="2" ry="2" />
+  <rect x="325" y="190" width="5" height="10" fill="#a67c52" rx="2" ry="2" />
+  
+  <!-- Small pile of flour -->
+  <ellipse cx="100" cy="200" rx="20" ry="10" fill="#f9f2e2" />
+  <ellipse cx="100" cy="198" rx="15" ry="7" fill="#ffffff" opacity="0.5" />
+  
+  <!-- Small bowl -->
+  <ellipse cx="320" cy="230" rx="20" ry="10" fill="#e8d7d2" />
+  <ellipse cx="320" cy="230" rx="15" ry="7" fill="#f5efe6" />
+</svg>

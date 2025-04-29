@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300">
+  <!-- Cake stand -->
+  <ellipse cx="150" cy="250" rx="100" ry="20" fill="#e8d7d2" />
+  <rect x="135" y="250" width="30" height="20" fill="#e8d7d2" />
+  <ellipse cx="150" cy="270" rx="40" ry="10" fill="#e8d7d2" />
+  
+  <!-- Bottom cake tier -->
+  <ellipse cx="150" cy="210" rx="90" ry="25" fill="#f5e6d8" />
+  <rect x="60" y="180" width="180" height="30" fill="#f5e6d8" />
+  <ellipse cx="150" cy="180" rx="90" ry="25" fill="#f5e6d8" />
+  
+  <!-- Bottom tier decorations -->
+  <path d="M60,190 C80,200 220,200 240,190" fill="none" stroke="#e8c287" stroke-width="4" />
+  <path d="M80,180 C80,175 90,170 90,175 C90,170 100,175 100,170 C100,175 110,170 110,175 C110,170 120,175 120,170 C120,175 130,170 130,175 C130,170 140,175 140,170 C140,175 150,170 150,175 C150,170 160,175 160,170 C160,175 170,170 170,175 C170,170 180,175 180,170 C180,175 190,170 190,175 C190,170 200,175 200,170 C200,175 210,170 210,175 C210,170 220,175 220,170" stroke="#e8c287" stroke-width="2" fill="none" />
+  
+  <!-- Middle cake tier -->
+  <ellipse cx="150" cy="145" rx="70" ry="20" fill="#f9e4d4" />
+  <rect x="80" y="120" width="140" height="25" fill="#f9e4d4" />
+  <ellipse cx="150" cy="120" rx="70" ry="20" fill="#f9e4d4" />
+  
+  <!-- Middle tier decorations - dots -->
+  <circle cx="110" cy="132.5" r="3" fill="#e8c287" />
+  <circle cx="130" cy="132.5" r="3" fill="#e8c287" />
+  <circle cx="150" cy="132.5" r="3" fill="#e8c287" />
+  <circle cx="170" cy="132.5" r="3" fill="#e8c287" />
+  <circle cx="190" cy="132.5" r="3" fill="#e8c287" />
+  <circle cx="100" cy="120" r="3" fill="#e8c287" />
+  <circle cx="120" cy="120" r="3" fill="#e8c287" />
+  <circle cx="140" cy="120" r="3" fill="#e8c287" />
+  <circle cx="160" cy="120" r="3" fill="#e8c287" />
+  <circle cx="180" cy="120" r="3" fill="#e8c287" />
+  <circle cx="200" cy="120" r="3" fill="#e8c287" />
+  
+  <!-- Top cake tier -->
+  <ellipse cx="150" cy="90" rx="50" ry="15" fill="#eddfc8" />
+  <rect x="100" y="70" width="100" height="20" fill="#eddfc8" />
+  <ellipse cx="150" cy="70" rx="50" ry="15" fill="#eddfc8" />
+  
+  <!-- Top tier decorations - swirls -->
+  <path d="M110,80 C115,75 125,85 120,80 M130,80 C135,75 145,85 140,80 M150,80 C155,75 165,85 160,80 M170,80 C175,75 185,85 180,80" stroke="#e8c287" stroke-width="1.5" fill="none" />
+  
+  <!-- Candles -->
+  <rect x="140" y="45" width="4" height="15" fill="#f9a3b2" />
+  <rect x="155" y="45" width="4" height="15" fill="#a3d1ff" />
+  <rect x="130" y="50" width="4" height="10" fill="#c5f9a3" />
+  <rect x="165" y="50" width="4" height="10" fill="#f9e9a3" />
+  <path d="M142,45 L142,40 L142.5,35" stroke="#ffcc00" stroke-width="1" />
+  <path d="M157,45 L157,40 L157.5,35" stroke="#ffcc00" stroke-width="1" />
+  <path d="M132,50 L132,45 L132.5,43" stroke="#ffcc00" stroke-width="1" />
+  <path d="M167,50 L167,45 L167.5,43" stroke="#ffcc00" stroke-width="1" />
+  
+  <!-- Decorative flowers -->
+  <circle cx="125" cy="60" r="5" fill="#f9a3b2" />
+  <circle cx="125" cy="60" r="2" fill="#ffcc00" />
+  <circle cx="175" cy="60" r="5" fill="#c5f9a3" />
+  <circle cx="175" cy="60" r="2" fill="#ffcc00" />
+  <circle cx="150" cy="55" r="6" fill="#a3d1ff" />
+  <circle cx="150" cy="55" r="2" fill="#ffcc00" />
+</svg>

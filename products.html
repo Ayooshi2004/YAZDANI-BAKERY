@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Products - Yazdani Bakery</title>
+    <meta name="description" content="Explore Yazdani Bakery's selection of artisan breads, pastries, cakes, and savory items. Made fresh daily with premium ingredients.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="assets/logo.svg" alt="Yazdani Bakery Logo">
+                    </a>
+                </div>
+                <nav>
+                    <ul class="nav-menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="products.html" class="active">Our Products</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="mobile-menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Our Products</h1>
+            <div class="breadcrumbs">
+                <a href="index.html">Home</a> <span>></span> <span>Our Products</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="products-intro">
+        <div class="container">
+            <div class="section-header">
+                <h2>Crafted with Passion & Tradition</h2>
+                <p>Every item at Yazdani Bakery is made from scratch daily using traditional methods and the finest ingredients. We believe in baking the way it should be - with care, time, and attention to detail.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="product-categories">
+        <div class="container">
+            <div class="category-filters">
+                <button class="category-filter active" data-category="all">All Products</button>
+                <button class="category-filter" data-category="breads">Artisan Breads</button>
+                <button class="category-filter" data-category="pastries">Pastries</button>
+                <button class="category-filter" data-category="cakes">Cakes</button>
+                <button class="category-filter" data-category="savory">Savory Items</button>
+            </div>
+
+            <div class="products-grid">
+                <!-- Breads Category -->
+                <div class="product-item" data-category="breads">
+                    <div class="product-image">
+                        <div class="product-placeholder" style="background-color: #f9e4d4;">
+                            <i class="fas fa-bread-slice"></i>
+                        </div>
+                    </div>
+                    <div class="product-details">
+                        <h3>Sourdough Boule</h3>
+                        <p class="product-description">Our signature sourdough with a perfect crust and tender crumb, made with our 70-year-old starter.</p>
+                        <p class="product-price">$7.50</p>
+                    </div>
+                </div>
+
+                <div class="product-item" data-category="breads">
+                    <div class="product-image">
+                        <div class="product-placeholder" style="background-color: #f2dcc9;">
+                            <i class="fas fa-bread-slice"></i>
+                        </div>
+                    </div>
+                    <div class="product-details">
+                        <h3>Multigrain Loaf</h3>
+                        <p class="product-description">Packed with seven different grains and seeds for a nutritious and flavorful everyday bread.</p>
+                        <p class="product-price">$6.75</p>
+                    </div>
+                </div>
+
+                <div class="product-item" data-category="breads">
+                    <div class="product-image">
+                        <div class="product-placeholder" style="background-color: #eddfc8;">
+                            <i class="fas fa-bread-slice"></i>
+                        </div>
+                    </div>
+                    <div class="product-details">
+                        <h3>Ciabatta</h3>
+                        <p class="product-description">Italian-style bread with a crisp crust and airy, open texture, perfect for sandwiches or dipping in olive oil.</p>
+                        <p class="product-price">$5.50</p>
+                    </div>
+                </div>
+
+                <div class="product-item" data-category="breads">
+                    <div class="product-image">
+                        <div class="product-placeholder" style="background-color: #e8d7d2;">
+                            <i class="fas fa-bread-slice"></i>
+                        </div>
+                    </div>
+                    <div class="product-details">
+                        <h3>Baguette</h3>
+                        <p class="product-description">Traditional French baguette with a crackling crust and light, chewy interior. Baked fresh throughout the day.</p>
+                        <p class="product-price">$4.25</p>
+                    </div>
+                </div>
+
+                <!-- Pastries Category -->
+                <div class="product-item" data-category="pastries">
+                    <div class="product-image">
+                        <img src="assets/svg/croissant.svg" alt="Butter Croissant" class="product-svg">
+                    </div>
+                    <div class="product-details">
+                        <h3>Butter Croissant</h3>
+                        <p class="product-description">Flaky, buttery croissants made with imported French butter and a traditional 3-day preparation method.</p>
+                        <p class="product-price">$3.95</p>
+                    </div>
+                </div>
+
+                <div class="product-item" data-category="pastries">
+                    <div class="product-image">
+                        <div class="product-placeholder" style="background-color: #e0d5ca;">
+                            <i class="fas fa-cookie"></i>
+                        </div>
+                    </div>
+                    <div class="product-details">
+                        <h3>Almond Danish</h3>
+                        <p class="product-description">Flaky pastry filled with rich almond cream and topped with sliced almonds and powdered sugar.</p>
+                        <p class="product-price">$4.50</p>
+                    </div>
+                </div>
+
+                <div class="product-item" data-category="pastries">
+                    <div class="product-image">
+                        <div class="product-placeholder" style="background-color: #f9ead8;">
+                            <i class="fas fa-cookie"></i>
+                        </div>
+                    </div>
+                    <div class="product-details">
+                        <h3>Chocolate Éclair</h3>
+                        <p class="product-description">Delicate choux pastry filled with vanilla custard and topped with rich chocolate ganache.</p>
+                        <p class="product-price">$4.75</p>
+                    </div>
+                </div>
+
+                <div class="product-item" data-category="pastries">
+                    <div class="product-image">
+                        <div class="product-placeholder" style="background-color: #f0e4d7;">
+                            <i class="fas fa-cookie"></i>
+                        </div>
+                    </div>
+                    <div class="product-details">
+                        <h3>Mixed Berry Tart</h3>
+                        <p class="product-description">Buttery shortcrust pastry filled with vanilla custard and topped with seasonal fresh berries.</p>
+                        <p class="product-price">$5.95</p>
+                    </div>
+                </div>
+
+                <!-- Cakes Category -->
+                <div class="product-item" data-category="cakes">
+                    <div class="product-image">
+                        <img src="assets/svg/chocolate_cake.svg" alt="Classic Chocolate Cake" class="product-svg">
+                    </div>
+                    <div class="product-details">
+                        <h3>Classic Chocolate Cake</h3>
+                        <p class="product-description">Rich chocolate cake layered with chocolate ganache and frosted with silky chocolate buttercream.</p>
+                        <p class="product-price">$38.00</p>
+                    </div>
+                </div>
+
+                <div class="product-item" data-category="cakes">
+                    <div class="product-image">
+                        <div class="product-placeholder" style="background-color: #eddfc8;">
+                            <i class="fas fa-birthday-cake"></i>
+                        </div>
+                    </div>
+                    <div class="product-details">
+                        <h3>Vanilla Bean Cheesecake</h3>
+                        <p class="product-description">Creamy cheesecake infused with real vanilla beans on a graham cracker crust, topped with seasonal fruit.</p>
+                        <p class="product-price">$42.00</p>
+                    </div>
+                </div>
+
+                <div class="product-item" data-category="cakes">
+                    <div class="product-image">
+                        <img src="assets/images/carrot_cake.jpg" alt="Carrot Cake" class="product-img">
+                    </div>
+                    <div class="product-details">
+                        <h3>Carrot Cake</h3>
+                        <p class="product-description">Moist carrot cake with walnuts and spices, layered with cream cheese frosting and decorated with candied carrot curls.</p>
+                        <p class="product-price">$36.00</p>
+                    </div>
+                </div>
+
+                <div class="product-item" data-category="cakes">
+                    <div class="product-image">
+                        <img src="assets/images/celebration_cake.jpg" alt="Custom Celebration Cake" class="product-img">
+                    </div>
+                    <div class="product-details">
+                        <h3>Custom Celebration Cake</h3>
+                        <p class="product-description">Personalized cakes for special occasions, available in various flavors, sizes, and designs. Please contact us for details.</p>
+                        <p class="product-price">From $45.00</p>
+                    </div>
+                </div>
+
+                <!-- Savory Items Category -->
+                <div class="product-item" data-category="savory">
+                    <div class="product-image">
+                        <div class="product-placeholder" style="background-color: #f9e4d4;">
+                            <i class="fas fa-pizza-slice"></i>
+                        </div>
+                    </div>
+                    <div class="product-details">
+                        <h3>Spinach & Feta Quiche</h3>
+                        <p class="product-description">Buttery pastry crust filled with a savory custard, spinach, and feta cheese. Available in individual or family size.</p>
+                        <p class="product-price">$6.95 / $24.00</p>
+                    </div>
+                </div>
+
+                <div class="product-item" data-category="savory">
+                    <div class="product-image">
+                        <div class="product-placeholder" style="background-color: #e0d5ca;">
+                            <i class="fas fa-pizza-slice"></i>
+                        </div>
+                    </div>
+                    <div class="product-details">
+                        <h3>Cheese & Herb Focaccia</h3>
+                        <p class="product-description">Italian flatbread topped with herbs, olive oil, and a blend of Italian cheeses. Perfect for sandwiches or as a side.</p>
+                        <p class="product-price">$8.50</p>
+                    </div>
+                </div>
+
+                <div class="product-item" data-category="savory">
+                    <div class="product-image">
+                        <div class="product-placeholder" style="background-color: #f9ead8;">
+                            <i class="fas fa-pizza-slice"></i>
+                        </div>
+                    </div>
+                    <div class="product-details">
+                        <h3>Ham & Cheese Croissant</h3>
+                        <p class="product-description">Our flaky butter croissant filled with premium ham and Gruyère cheese, baked until golden.</p>
+                        <p class="product-price">$5.50</p>
+                    </div>
+                </div>
+
+                <div class="product-item" data-category="savory">
+                    <div class="product-image">
+                        <div class="product-placeholder" style="background-color: #f0e4d7;">
+                            <i class="fas fa-pizza-slice"></i>
+                        </div>
+                    </div>
+                    <div class="product-details">
+                        <h3>Vegetable Puff Pastry</h3>
+                        <p class="product-description">Flaky puff pastry filled with seasonal vegetables, herbs and a touch of cream. A customer favorite!</p>
+                        <p class="product-price">$4.75</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="special-orders">
+        <div class="container">
+            <div class="special-orders-content">
+                <div class="section-header">
+                    <h2>Special Orders</h2>
+                    <p>We are happy to accommodate special requests and custom orders with advance notice.</p>
+                </div>
+                <div class="special-orders-info">
+                    <div class="special-order-item">
+                        <div class="special-order-icon">
+                            <i class="fas fa-birthday-cake"></i>
+                        </div>
+                        <div class="special-order-details">
+                            <h3>Custom Cakes</h3>
+                            <p>We create custom celebration cakes for birthdays, weddings, and special events. Please allow at least 72 hours notice.</p>
+                        </div>
+                    </div>
+                    <div class="special-order-item">
+                        <div class="special-order-icon">
+                            <i class="fas fa-bread-slice"></i>
+                        </div>
+                        <div class="special-order-details">
+                            <h3>Bulk Orders</h3>
+                            <p>Planning an event? We offer bulk orders of our breads, pastries, and savory items for meetings, parties, and gatherings.</p>
+                        </div>
+                    </div>
+                    <div class="special-order-item">
+                        <div class="special-order-icon">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <div class="special-order-details">
+                            <h3>Dietary Accommodations</h3>
+                            <p>We can prepare items to accommodate various dietary needs, including gluten-free, vegan, and nut-free options.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="special-orders-cta">
+                    <p>To place a special order, please call us at (555) 123-4567 or visit our bakery in person.</p>
+                    <a href="contact.html" class="btn primary-btn">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Fresh Bread Daily</h2>
+                <p>Visit our bakery for the best selection of freshly baked goods</p>
+                <a href="contact.html" class="btn primary-btn">Find Our Location</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <div class="footer-logo">
+                        <img src="assets/logo.svg" alt="Yazdani Bakery Logo">
+                    </div>
+                    <p>Crafting delicious memories since 1953</p>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="products.html">Our Products</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact Us</h3>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Baker Street, Cityville</li>
+                        <li><i class="fas fa-phone"></i> (555) 123-4567</li>
+                        <li><i class="fas fa-envelope"></i> info@yazdanibakery.com</li>
+                        <li><i class="fas fa-clock"></i> Mon-Sat: 7am - 7pm, Sun: 8am - 5pm</li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to get updates on new products and special offers.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Yazdani Bakery. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

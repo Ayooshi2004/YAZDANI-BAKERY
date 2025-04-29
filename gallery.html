@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Yazdani Bakery</title>
+    <meta name="description" content="Browse our gallery of freshly baked goods, behind-the-scenes baking, and special events at Yazdani Bakery.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="assets/logo.svg" alt="Yazdani Bakery Logo">
+                    </a>
+                </div>
+                <nav>
+                    <ul class="nav-menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="products.html">Our Products</a></li>
+                        <li><a href="gallery.html" class="active">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="mobile-menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Our Gallery</h1>
+            <div class="breadcrumbs">
+                <a href="index.html">Home</a> <span>></span> <span>Gallery</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery-intro">
+        <div class="container">
+            <div class="section-header">
+                <h2>A Visual Feast</h2>
+                <p>Take a look behind the scenes at our bakery and explore the artistry that goes into our handcrafted products.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery-filters">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="breads">Breads</button>
+                <button class="filter-btn" data-filter="pastries">Pastries</button>
+                <button class="filter-btn" data-filter="cakes">Cakes</button>
+                <button class="filter-btn" data-filter="baking">Baking Process</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery-grid">
+        <div class="container">
+            <div class="gallery">
+                <div class="gallery-item" data-category="breads">
+                    <div class="gallery-image">
+                        <div class="gallery-placeholder" style="background-color: #f9e4d4;">
+                            <i class="fas fa-bread-slice"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-caption">
+                        <h3>Artisan Sourdough</h3>
+                        <p>Our signature sourdough boules fresh from the oven.</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="breads">
+                    <div class="gallery-image">
+                        <div class="gallery-placeholder" style="background-color: #f2dcc9;">
+                            <i class="fas fa-bread-slice"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-caption">
+                        <h3>French Baguettes</h3>
+                        <p>Traditional baguettes with perfect crust and texture.</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="pastries">
+                    <div class="gallery-image">
+                        <div class="gallery-placeholder" style="background-color: #eddfc8;">
+                            <i class="fas fa-cookie"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-caption">
+                        <h3>Morning Pastries</h3>
+                        <p>Freshly baked croissants and danish pastries.</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="baking">
+                    <div class="gallery-image">
+                        <div class="gallery-placeholder" style="background-color: #e8d7d2;">
+                            <i class="fas fa-fire"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-caption">
+                        <h3>The Oven</h3>
+                        <p>Our vintage stone hearth oven in action.</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="cakes">
+                    <div class="gallery-image">
+                        <div class="gallery-placeholder" style="background-color: #f5efe6;">
+                            <i class="fas fa-birthday-cake"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-caption">
+                        <h3>Wedding Cake</h3>
+                        <p>Three-tier wedding cake with fresh flowers.</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="pastries">
+                    <div class="gallery-image">
+                        <div class="gallery-placeholder" style="background-color: #e0d5ca;">
+                            <i class="fas fa-cookie"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-caption">
+                        <h3>Fruit Tarts</h3>
+                        <p>Seasonal fruit tarts with vanilla custard.</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="breads">
+                    <div class="gallery-image">
+                        <div class="gallery-placeholder" style="background-color: #f9ead8;">
+                            <i class="fas fa-bread-slice"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-caption">
+                        <h3>Ciabatta</h3>
+                        <p>Italian ciabatta bread with olive oil and herbs.</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="baking">
+                    <div class="gallery-image">
+                        <div class="gallery-placeholder" style="background-color: #f0e4d7;">
+                            <i class="fas fa-hands"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-caption">
+                        <h3>Shaping the Dough</h3>
+                        <p>Our bakers carefully shaping bread dough by hand.</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="cakes">
+                    <div class="gallery-image">
+                        <div class="gallery-placeholder" style="background-color: #f2dcc9;">
+                            <i class="fas fa-birthday-cake"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-caption">
+                        <h3>Birthday Celebration</h3>
+                        <p>Custom birthday cake with chocolate ganache.</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="pastries">
+                    <div class="gallery-image">
+                        <div class="gallery-placeholder" style="background-color: #eddfc8;">
+                            <i class="fas fa-cookie"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-caption">
+                        <h3>Chocolate Éclairs</h3>
+                        <p>Classic French éclairs with dark chocolate glaze.</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="baking">
+                    <div class="gallery-image">
+                        <div class="gallery-placeholder" style="background-color: #e8d7d2;">
+                            <i class="fas fa-mortar-pestle"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-caption">
+                        <h3>Preparing Ingredients</h3>
+                        <p>Selecting and preparing the finest ingredients.</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="cakes">
+                    <div class="gallery-image">
+                        <div class="gallery-placeholder" style="background-color: #f5efe6;">
+                            <i class="fas fa-birthday-cake"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-caption">
+                        <h3>Chocolate Cake</h3>
+                        <p>Triple-layer chocolate cake with ganache frosting.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="instagram-feed">
+        <div class="container">
+            <div class="section-header">
+                <h2>Follow Us on Instagram</h2>
+                <p>Tag us in your Yazdani Bakery moments <span class="instagram-handle">@YazdaniBakery</span></p>
+            </div>
+            <div class="instagram-grid">
+                <div class="instagram-item">
+                    <div class="instagram-placeholder" style="background-color: #f9e4d4;">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                </div>
+                <div class="instagram-item">
+                    <div class="instagram-placeholder" style="background-color: #f2dcc9;">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                </div>
+                <div class="instagram-item">
+                    <div class="instagram-placeholder" style="background-color: #eddfc8;">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                </div>
+                <div class="instagram-item">
+                    <div class="instagram-placeholder" style="background-color: #e8d7d2;">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                </div>
+                <div class="instagram-item">
+                    <div class="instagram-placeholder" style="background-color: #f5efe6;">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                </div>
+                <div class="instagram-item">
+                    <div class="instagram-placeholder" style="background-color: #e0d5ca;">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="instagram-follow">
+                <a href="https://www.instagram.com/" target="_blank" class="btn secondary-btn">
+                    <i class="fab fa-instagram"></i> Follow Us
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Visit Our Bakery</h2>
+                <p>Explore our full range of freshly baked goods in person</p>
+                <a href="contact.html" class="btn primary-btn">Find Our Location</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <div class="footer-logo">
+                        <img src="assets/logo.svg" alt="Yazdani Bakery Logo">
+                    </div>
+                    <p>Crafting delicious memories since 1953</p>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="products.html">Our Products</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact Us</h3>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Baker Street, Cityville</li>
+                        <li><i class="fas fa-phone"></i> (555) 123-4567</li>
+                        <li><i class="fas fa-envelope"></i> info@yazdanibakery.com</li>
+                        <li><i class="fas fa-clock"></i> Mon-Sat: 7am - 7pm, Sun: 8am - 5pm</li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to get updates on new products and special offers.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Yazdani Bakery. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="gallery-modal">
+        <span class="modal-close">&times;</span>
+        <div class="modal-content">
+            <div class="modal-image">
+                <div class="modal-placeholder">
+                    <i class="fas fa-image"></i>
+                </div>
+            </div>
+            <div class="modal-caption"></div>
+        </div>
+        <button class="modal-prev"><i class="fas fa-chevron-left"></i></button>
+        <button class="modal-next"><i class="fas fa-chevron-right"></i></button>
+    </div>
+
+    <script src="js/script.js"></script>
+    <script src="js/gallery.js"></script>
+</body>
+</html>

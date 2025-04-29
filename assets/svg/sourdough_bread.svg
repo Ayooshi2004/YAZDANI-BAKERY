@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300">
+  <!-- Sourdough bread -->
+  <ellipse cx="150" cy="150" rx="120" ry="90" fill="#e8b87d" />
+  <path d="M150,60 C210,60 270,110 270,150 C270,190 210,240 150,240 C90,240 30,190 30,150 C30,110 90,60 150,60 Z" fill="none" stroke="#c4915b" stroke-width="2" />
+  
+  <!-- Bread texture and scoring marks -->
+  <path d="M90,150 C110,130 190,130 210,150" fill="none" stroke="#c4915b" stroke-width="2" stroke-linecap="round" />
+  <path d="M70,170 C100,150 200,150 230,170" fill="none" stroke="#c4915b" stroke-width="2" stroke-linecap="round" />
+  <path d="M80,130 C110,110 190,110 220,130" fill="none" stroke="#c4915b" stroke-width="2" stroke-linecap="round" />
+  
+  <!-- Flour dusting -->
+  <circle cx="100" cy="120" r="5" fill="#f9f2e2" opacity="0.7" />
+  <circle cx="130" cy="100" r="4" fill="#f9f2e2" opacity="0.7" />
+  <circle cx="170" cy="110" r="6" fill="#f9f2e2" opacity="0.7" />
+  <circle cx="200" cy="130" r="4" fill="#f9f2e2" opacity="0.7" />
+  <circle cx="90" cy="160" r="5" fill="#f9f2e2" opacity="0.7" />
+  <circle cx="220" cy="150" r="4" fill="#f9f2e2" opacity="0.7" />
+  
+  <!-- Crust details -->
+  <path d="M150,65 C200,65 250,100 260,150 C270,200 200,235 150,235 C100,235 30,200 40,150 C50,100 100,65 150,65 Z" fill="none" stroke="#b67f44" stroke-width="1.5" stroke-dasharray="3,2" />
+</svg>

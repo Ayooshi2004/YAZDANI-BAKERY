@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300">
+  <!-- Background plate -->
+  <ellipse cx="150" cy="200" rx="120" ry="25" fill="#f5f0e5" opacity="0.5" />
+  
+  <!-- Croissant - base shape -->
+  <path d="M100,120 C120,100 150,80 180,100 C210,120 210,160 180,180 C150,200 120,200 100,180 C80,160 80,140 100,120 Z" fill="#eddfc8" />
+  
+  <!-- Croissant - layers and flaky texture -->
+  <path d="M100,120 C120,100 150,80 180,100" fill="none" stroke="#e8c287" stroke-width="2" stroke-dasharray="3,1" />
+  <path d="M180,100 C210,120 210,160 180,180" fill="none" stroke="#e8c287" stroke-width="2" stroke-dasharray="3,1" />
+  <path d="M180,180 C150,200 120,200 100,180" fill="none" stroke="#e8c287" stroke-width="2" stroke-dasharray="3,1" />
+  <path d="M100,180 C80,160 80,140 100,120" fill="none" stroke="#e8c287" stroke-width="2" stroke-dasharray="3,1" />
+  
+  <!-- Croissant - inner details -->
+  <path d="M110,130 C135,115 160,110 175,120" fill="none" stroke="#e8c287" stroke-width="1.5" />
+  <path d="M120,170 C140,180 160,180 170,170" fill="none" stroke="#e8c287" stroke-width="1.5" />
+  <path d="M120,140 C135,130 150,130 165,140" fill="none" stroke="#e8c287" stroke-width="1.5" />
+  <path d="M130,160 C140,165 150,165 160,160" fill="none" stroke="#e8c287" stroke-width="1.5" />
+  
+  <!-- Crust highlights and shadows -->
+  <path d="M100,120 C120,100 150,80 180,100" fill="none" stroke="#b98c5a" stroke-width="4" stroke-opacity="0.3" />
+  <path d="M180,100 C210,120 210,160 180,180" fill="none" stroke="#b98c5a" stroke-width="4" stroke-opacity="0.3" />
+  
+  <!-- Butter glaze shine -->
+  <ellipse cx="140" cy="130" rx="20" ry="10" fill="#f9f2e2" opacity="0.7" transform="rotate(30, 140, 130)" />
+  <ellipse cx="160" cy="150" rx="15" ry="8" fill="#f9f2e2" opacity="0.6" transform="rotate(-15, 160, 150)" />
+  
+  <!-- Flaky bits -->
+  <path d="M130,115 L135,110 M145,110 L150,105 M165,115 L170,110" stroke="#e8c287" stroke-width="1" />
+  <path d="M190,140 L195,135 M190,160 L195,165" stroke="#e8c287" stroke-width="1" />
+  <path d="M120,185 L125,190 M145,190 L150,195" stroke="#e8c287" stroke-width="1" />
+  
+  <!-- Crumbs -->
+  <circle cx="100" cy="200" r="2" fill="#e8c287" />
+  <circle cx="120" cy="210" r="1.5" fill="#e8c287" />
+  <circle cx="170" cy="205" r="2" fill="#e8c287" />
+  <circle cx="190" cy="195" r="1" fill="#e8c287" />
+  <circle cx="200" cy="180" r="1.5" fill="#e8c287" />
+</svg>

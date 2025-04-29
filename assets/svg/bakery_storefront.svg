@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <!-- Building background -->
+  <rect x="50" y="50" width="300" height="200" fill="#f5efe6" />
+  
+  <!-- Storefront details -->
+  <rect x="50" y="50" width="300" height="30" fill="#e0d5ca" />
+  <rect x="50" y="220" width="300" height="30" fill="#e0d5ca" />
+  
+  <!-- Door -->
+  <rect x="175" y="150" width="50" height="100" fill="#7d5d3b" />
+  <rect x="180" y="155" width="40" height="90" fill="#a67c52" />
+  <circle cx="215" cy="200" r="3" fill="#c4a77d" /> <!-- Door handle -->
+  
+  <!-- Windows -->
+  <rect x="75" y="100" width="80" height="80" fill="#e8d7d2" />
+  <path d="M75,100 L155,100 L155,180 L75,180 Z" fill="none" stroke="#a67c52" stroke-width="3" />
+  <path d="M115,100 L115,180 M75,140 L155,140" stroke="#a67c52" stroke-width="2" />
+  
+  <rect x="245" y="100" width="80" height="80" fill="#e8d7d2" />
+  <path d="M245,100 L325,100 L325,180 L245,180 Z" fill="none" stroke="#a67c52" stroke-width="3" />
+  <path d="M285,100 L285,180 M245,140 L325,140" stroke="#a67c52" stroke-width="2" />
+  
+  <!-- Display cases in windows -->
+  <rect x="80" y="145" width="70" height="30" fill="#f9e4d4" />
+  <ellipse cx="90" cy="150" rx="5" ry="3" fill="#e8c287" /> <!-- Bread -->
+  <ellipse cx="105" cy="152" rx="6" ry="3" fill="#e8c287" /> <!-- Bread -->
+  <rect x="120" y="148" width="8" height="12" fill="#f9a3b2" /> <!-- Cake -->
+  <rect x="135" y="148" width="10" height="8" fill="#eddfc8" /> <!-- Pastry -->
+  
+  <rect x="250" y="145" width="70" height="30" fill="#f9e4d4" />
+  <ellipse cx="260" cy="150" rx="5" ry="3" fill="#e8c287" /> <!-- Bread -->
+  <ellipse cx="275" cy="152" rx="6" ry="3" fill="#e8c287" /> <!-- Bread -->
+  <rect x="290" y="148" width="8" height="12" fill="#f9a3b2" /> <!-- Cake -->
+  <rect x="305" y="148" width="10" height="8" fill="#eddfc8" /> <!-- Pastry -->
+  
+  <!-- Awning -->
+  <path d="M35,80 L365,80 L350,110 L50,110 Z" fill="#a67c52" />
+  <path d="M35,80 L365,80" stroke="#614c3e" stroke-width="3" />
+  <path d="M50,110 L350,110" stroke="#614c3e" stroke-width="1" />
+  <path d="M50,110 L65,80 M100,110 L115,80 M150,110 L165,80 M200,110 L215,80 M250,110 L265,80 M300,110 L315,80" stroke="#614c3e" stroke-width="1" stroke-dasharray="2,2" />
+  
+  <!-- Store sign -->
+  <rect x="120" y="60" width="160" height="30" fill="#f9ead8" rx="5" ry="5" />
+  <text x="200" y="82" font-family="'Playfair Display', serif" font-size="16" font-weight="700" fill="#614c3e" text-anchor="middle">YAZDANI BAKERY</text>
+  
+  <!-- Decoration elements -->
+  <rect x="50" y="250" width="300" height="10" fill="#c4a77d" /> <!-- Sidewalk -->
+  <rect x="50" y="260" width="300" height="15" fill="#e8d7d2" /> <!-- Sidewalk border -->
+  
+  <!-- Plants outside -->
+  <rect x="65" y="230" width="20" height="20" fill="#7d5d3b" /> <!-- Pot -->
+  <path d="M75,230 C70,225 65,215 75,210 C85,215 80,225 75,230" fill="#6aaf7d" /> <!-- Plant -->
+  
+  <rect x="315" y="230" width="20" height="20" fill="#7d5d3b" /> <!-- Pot -->
+  <path d="M325,230 C320,225 315,215 325,210 C335,215 330,225 325,230" fill="#6aaf7d" /> <!-- Plant -->
+</svg>

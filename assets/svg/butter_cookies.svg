@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300">
+  <!-- Background plate -->
+  <ellipse cx="150" cy="170" rx="120" ry="30" fill="#f5f0e5" />
+  
+  <!-- Cookie 1 - center -->
+  <circle cx="150" cy="130" r="30" fill="#e8c287" />
+  <circle cx="150" cy="130" r="25" fill="#eddfc8" />
+  <circle cx="150" cy="130" r="20" fill="#e8c287" />
+  
+  <!-- Cookie 2 - top left -->
+  <circle cx="100" cy="100" r="25" fill="#e8c287" />
+  <path d="M100,100 m-20,0 a20,20 0 1,0 40,0 a20,20 0 1,0 -40,0" fill="#eddfc8" />
+  <circle cx="100" cy="100" r="15" fill="#e8c287" />
+  <circle cx="90" cy="95" r="3" fill="#b98c5a" />
+  <circle cx="110" cy="105" r="3" fill="#b98c5a" />
+  <circle cx="95" cy="110" r="3" fill="#b98c5a" />
+  
+  <!-- Cookie 3 - top right -->
+  <circle cx="200" cy="100" r="28" fill="#e8c287" />
+  <circle cx="200" cy="100" r="23" fill="#eddfc8" />
+  <path d="M190,90 L210,110 M190,110 L210,90" stroke="#b98c5a" stroke-width="2" />
+  <circle cx="200" cy="100" r="5" fill="#b98c5a" />
+  
+  <!-- Cookie 4 - bottom -->
+  <circle cx="150" cy="180" r="26" fill="#e8c287" />
+  <circle cx="150" cy="180" r="22" fill="#eddfc8" />
+  <path d="M150,180 m-15,0 a15,15 0 1,0 30,0 a15,15 0 1,0 -30,0" fill="none" stroke="#b98c5a" stroke-width="2" stroke-dasharray="2,2" />
+  
+  <!-- Cookie crumbs -->
+  <circle cx="130" cy="150" r="2" fill="#e8c287" />
+  <circle cx="170" cy="160" r="3" fill="#e8c287" />
+  <circle cx="110" cy="170" r="2" fill="#e8c287" />
+  <circle cx="190" cy="175" r="2" fill="#e8c287" />
+  <circle cx="220" cy="150" r="3" fill="#e8c287" />
+  <circle cx="80" cy="160" r="2" fill="#e8c287" />
+  
+  <!-- Sugar sprinkles -->
+  <circle cx="150" cy="130" r="2" fill="#f9f2e2" />
+  <circle cx="160" cy="125" r="1" fill="#f9f2e2" />
+  <circle cx="140" cy="125" r="1" fill="#f9f2e2" />
+  <circle cx="145" cy="140" r="1" fill="#f9f2e2" />
+  <circle cx="155" cy="140" r="1" fill="#f9f2e2" />
+</svg>

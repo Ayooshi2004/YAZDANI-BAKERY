@@ -1,0 +1,430 @@
+/*------------------------------------------
+  Yazdani Bakery - Responsive Stylesheet
+  Version: 1.0
+--------------------------------------------*/
+
+/*------------------------------------------
+  Table of Contents:
+  1. Global Responsive Adjustments
+  2. Header & Navigation Mobile Styles
+  3. Home Page Responsive Styles
+  4. About Page Responsive Styles
+  5. Products Page Responsive Styles
+  6. Gallery Page Responsive Styles
+  7. Contact Page Responsive Styles
+--------------------------------------------*/
+
+/*------------------------------------------
+  1. Global Responsive Adjustments
+--------------------------------------------*/
+@media screen and (max-width: 1200px) {
+    .container {
+        padding: 0 var(--spacing-sm);
+    }
+}
+
+@media screen and (max-width: 992px) {
+    html {
+        font-size: 15px;
+    }
+    
+    h1 {
+        font-size: 3rem;
+    }
+    
+    h2 {
+        font-size: 2.2rem;
+    }
+    
+    h3 {
+        font-size: 1.5rem;
+    }
+    
+    section {
+        padding: var(--spacing-md) 0;
+    }
+    
+    .two-column-grid {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-md);
+    }
+    
+    .column-image {
+        order: -1;
+    }
+    
+    .image-placeholder {
+        min-height: 350px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 14px;
+    }
+    
+    h1 {
+        font-size: 2.5rem;
+    }
+    
+    h2 {
+        font-size: 2rem;
+    }
+    
+    .section-header {
+        margin-bottom: var(--spacing-md);
+    }
+    
+    .btn {
+        padding: 0.7rem 1.8rem;
+    }
+    
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-md);
+    }
+    
+    .footer-column {
+        text-align: center;
+    }
+    
+    .footer-column h3:after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    .social-icons {
+        justify-content: center;
+    }
+    
+    .footer-links,
+    .contact-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .contact-info li {
+        justify-content: center;
+    }
+    
+    .newsletter-form {
+        max-width: 300px;
+        margin: var(--spacing-sm) auto 0;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    h1 {
+        font-size: 2.2rem;
+    }
+    
+    h2 {
+        font-size: 1.8rem;
+    }
+    
+    h3 {
+        font-size: 1.3rem;
+    }
+    
+    .hero-buttons {
+        flex-direction: column;
+        gap: var(--spacing-sm);
+    }
+    
+    .hero-buttons .btn {
+        width: 100%;
+    }
+}
+
+/*------------------------------------------
+  2. Header & Navigation Mobile Styles
+--------------------------------------------*/
+@media screen and (max-width: 992px) {
+    .header-content {
+        padding: 0.7rem 0;
+    }
+    
+    .logo img {
+        height: 40px;
+    }
+    
+    .nav-menu {
+        position: fixed;
+        top: 74px;
+        left: -100%;
+        width: 100%;
+        height: calc(100vh - 74px);
+        background-color: var(--white);
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding-top: var(--spacing-lg);
+        transition: left var(--transition-medium);
+        z-index: 999;
+        box-shadow: var(--shadow-lg);
+    }
+    
+    .nav-menu.active {
+        left: 0;
+    }
+    
+    .nav-menu li {
+        margin: 0 0 var(--spacing-md);
+    }
+    
+    .nav-menu a {
+        font-size: 1.2rem;
+    }
+    
+    .mobile-menu-toggle {
+        display: block;
+    }
+    
+    .page-header {
+        margin-top: 60px;
+        padding: 5rem 0 var(--spacing-md);
+    }
+    
+    .hero {
+        margin-top: 60px;
+        height: 70vh;
+    }
+}
+
+/*------------------------------------------
+  3. Home Page Responsive Styles
+--------------------------------------------*/
+@media screen and (max-width: 992px) {
+    .hero {
+        text-align: center;
+    }
+    
+    .hero h1 {
+        font-size: 2.8rem;
+    }
+    
+    .hero h2 {
+        font-size: 1.6rem;
+    }
+    
+    .hero p {
+        font-size: 1.1rem;
+    }
+    
+    .products-grid {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+    
+    .about-grid {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-md);
+    }
+    
+    .about-image {
+        order: -1;
+    }
+    
+    .testimonial-content {
+        padding: var(--spacing-md);
+    }
+    
+    .testimonial-content p {
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .hero h1 {
+        font-size: 2.2rem;
+    }
+    
+    .hero h2 {
+        font-size: 1.3rem;
+    }
+    
+    .hero p {
+        font-size: 1rem;
+    }
+    
+    .products-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .testimonial-content {
+        padding: var(--spacing-sm);
+    }
+    
+    .testimonial-content p {
+        font-size: 1rem;
+    }
+}
+
+/*------------------------------------------
+  4. About Page Responsive Styles
+--------------------------------------------*/
+@media screen and (max-width: 992px) {
+    .values-grid {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+    
+    .team-grid {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+    
+    .timeline:before {
+        left: 40px;
+    }
+    
+    .timeline-dot {
+        left: 40px;
+    }
+    
+    .timeline-content {
+        width: calc(100% - 80px);
+        margin-left: 80px !important;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .values-grid,
+    .team-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/*------------------------------------------
+  5. Products Page Responsive Styles
+--------------------------------------------*/
+@media screen and (max-width: 992px) {
+    .category-filters {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .special-orders-info {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .category-filter {
+        width: calc(50% - 10px);
+        text-align: center;
+    }
+    
+    .product-item {
+        margin-bottom: var(--spacing-sm);
+    }
+    
+    .special-order-item {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .special-order-icon {
+        margin-right: 0;
+        margin-bottom: var(--spacing-xs);
+    }
+}
+
+/*------------------------------------------
+  6. Gallery Page Responsive Styles
+--------------------------------------------*/
+@media screen and (max-width: 992px) {
+    .filter-buttons {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .gallery {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+    
+    .instagram-grid {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .filter-btn {
+        width: calc(50% - 10px);
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    
+    .gallery {
+        grid-template-columns: 1fr;
+    }
+    
+    .instagram-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .modal-content {
+        max-width: 95%;
+    }
+    
+    .modal-prev {
+        left: 10px;
+    }
+    
+    .modal-next {
+        right: 10px;
+    }
+    
+    .modal-close {
+        top: 10px;
+        right: 10px;
+    }
+}
+
+/*------------------------------------------
+  7. Contact Page Responsive Styles
+--------------------------------------------*/
+@media screen and (max-width: 992px) {
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .info-boxes {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .map-container {
+        grid-template-columns: 1fr;
+    }
+    
+    .map-placeholder {
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .info-boxes {
+        grid-template-columns: 1fr;
+    }
+    
+    .info-box {
+        justify-content: flex-start;
+    }
+    
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+        padding: 8px 12px;
+    }
+    
+    .social-connect {
+        text-align: center;
+    }
+    
+    .social-connect .social-icons {
+        justify-content: center;
+    }
+    
+    .faq-question h3 {
+        font-size: 1.1rem;
+    }
+}

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 80" width="300" height="80">
+  <!-- Background shapes representing bread -->
+  <ellipse cx="60" cy="40" rx="32" ry="25" fill="#a67c52" opacity="0.9" />
+  <ellipse cx="40" cy="40" rx="28" ry="22" fill="#c4a77d" opacity="0.8" />
+  
+  <!-- Main Text: Yazdani -->
+  <text x="90" y="45" font-family="'Playfair Display', serif" font-size="28" font-weight="700" fill="#614c3e">
+    YAZDANI
+  </text>
+  
+  <!-- Subtitle: Bakery -->
+  <text x="90" y="65" font-family="'Poppins', sans-serif" font-size="14" letter-spacing="3" fill="#7d5d3b">
+    BAKERY
+  </text>
+  
+  <!-- Decorative wheat stalks -->
+  <g fill="#a67c52">
+    <!-- Left wheat stalk -->
+    <path d="M25,30 Q23,25 25,20 T25,10 M25,20 Q27,15 25,10 M25,30 Q27,25 29,20 T29,10" stroke="#a67c52" stroke-width="1.5" fill="none" />
+    <!-- Right wheat stalk -->
+    <path d="M75,30 Q73,25 75,20 T75,10 M75,20 Q77,15 75,10 M75,30 Q77,25 79,20 T79,10" stroke="#a67c52" stroke-width="1.5" fill="none" />
+  </g>
+  
+  <!-- Established year -->
+  <text x="60" y="45" font-family="'Poppins', sans-serif" font-size="10" text-anchor="middle" fill="#ffffff">
+    EST.
+  </text>
+  <text x="60" y="55" font-family="'Poppins', sans-serif" font-size="12" text-anchor="middle" fill="#ffffff" font-weight="600">
+    1953
+  </text>
+  
+  <!-- Decorative border elements -->
+  <line x1="90" y1="50" x2="240" y2="50" stroke="#c4a77d" stroke-width="1" />
+  <line x1="100" y1="67" x2="180" y2="67" stroke="#c4a77d" stroke-width="1" />
+</svg>
